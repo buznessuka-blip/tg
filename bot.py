@@ -21,7 +21,7 @@ applications = {}
 application_counter = 1  # Счетчик заявок
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("Привет! Я — бот-психолог.", reply_markup=markup)
+    await update.message.reply_text("Привет! Я бот психолог Евы Кулик выбери из меню что тебя интересует", reply_markup=markup)
 
 async def reply(update: Update, context: ContextTypes.DEFAULT_TYPE):
     global application_counter
