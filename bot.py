@@ -2,7 +2,7 @@ from telegram import Update, ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKe
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters, CallbackQueryHandler
 import random
 
-TOKEN = "7876853359:AAG5nuDuuSXjKXBDHykVepqCAIVeZdqYkRk"
+TOKEN = "7876853359:AAEFHa66B4mxh7Py2jvwxVM-A9XHHf8pAi8"
 ADMIN_USERNAME = 280969220  # ID админа
 
 keyboard = [
